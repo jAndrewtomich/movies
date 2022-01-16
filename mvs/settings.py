@@ -46,7 +46,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_netflix.urls'
+ROOT_URLCONF = 'mvs.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_netflix.wsgi.application'
+WSGI_APPLICATION = 'mvs.wsgi.application'
 
 
 # Database
