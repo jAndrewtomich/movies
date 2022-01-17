@@ -7,7 +7,7 @@ AGE_CHOICES = (('All', 'All'), ('Kids', 'Kids'))
 MOVIE_CHOICES = (('seasonal', 'Seasonal'), ('single', 'Single'))
 
 class CustomUser(AbstractUser):
-    profiles = models.ManyToManyField('Profile', null=True, blank=True)
+    profiles = models.ManyToManyField('Profile', blank=True)
 
 
 class Profile(models.Model):
