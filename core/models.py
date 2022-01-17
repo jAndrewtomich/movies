@@ -29,4 +29,4 @@ class Movie(models.Model):
 
 class Video(models.Model):
     title = models.CharField(max_length=225, blank=True, null=True)
-    file = models.FileField(upload_to='movs')
+    file = models.FileField(upload_to='movies')
