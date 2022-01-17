@@ -44,7 +44,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mvs.urls'
+ROOT_URLCONF = 'movies.urls'
 
 TEMPLATES = [
     {
@@ -122,3 +122,6 @@ MEDIA_URL='/media/'
 STATICFILES_DIRS=[
     BASE_DIR/'static'
 ]
+
+# Auth settings
+AUTH_USER_MODEL = 'core.CustomUser'
